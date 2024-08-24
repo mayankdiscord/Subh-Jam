@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subh Jam - A Beautiful Jam</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Subh Jam</h1>
+        <p>A Beautiful Jam for a Beautiful Day</p>
+    </header>
+
+    <section class="hero">
+        <img src="path_to_image/subh_jam_jar.jpg" alt="Subh Jam Jar">
+        <div class="hero-text">
+            <h2>Start Your Day with Subh Jam</h2>
+            <p>Subh Jam is the perfect way to make your mornings more delicious. Enjoy the rich flavors of fresh fruits in every bite!</p>
+            <a href="#generate-letter" class="btn">Generate Food Letter</a>
+        </div>
+    </section>
+
+    <section id="generate-letter" class="generate-letter">
+        <h2>Generate Your Personalized Food Letter</h2>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="favorite-flavor">Favorite Flavor:</label>
+            <input type="text" id="favorite-flavor" name="favorite-flavor" required>
+            <button type="submit" class="btn">Generate Letter</button>
+        </form>
+        <div id="letter-output"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Subh Jam. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
